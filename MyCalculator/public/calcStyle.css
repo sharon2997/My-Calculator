@@ -1,0 +1,47 @@
+input {
+    text-align: center;
+    font-size: 24px;
+}
+
+html {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #FFCCFF 0%, #FFE5CC 74%);
+    font-family: 'Cookie', cursive;
+}
+
+.title {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    font-family: 'Cookie', cursive;
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #5E5858;
+    cursor: pointer;
+}
+
+#zero{
+    width: 100px;
+    height: 40px;
+}
+
+#cButton{
+    width: 100px;
+    height: 40px;
+}
+

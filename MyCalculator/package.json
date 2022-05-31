@@ -1,0 +1,21 @@
+{
+  "name": "hw2_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node calcServer.js",
+    "dev": "nodemon calcServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "memory": "^0.0.3"
+  }
+}
